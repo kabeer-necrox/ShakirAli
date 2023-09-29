@@ -20,10 +20,11 @@ section {
   margin: auto;
 }
 .home {
-  background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(../images/qbir.jpg);
+  /* background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(../images/qbir.jpg); */
   background-attachment: fixed;
   background-size: cover;
   /* background-position:bottom; */
+  background-color: black;
 }
 
 .toggle {
@@ -38,7 +39,7 @@ section {
   transition: 250ms;
 }
 .toggle span:hover {
-  color: #e65f78;
+  color: #6fe65f;
 }
 .toggle ul {
   margin: 0px;
@@ -59,7 +60,7 @@ section {
   transition: 250ms;
 }
 .toggle ul a:hover {
-  color: #e65f78;
+  color:#6fe65f;
 }
 .kerri {
   padding-top: 20px;
@@ -71,13 +72,13 @@ section {
   transition: 250ms;
 }
 .kerri:hover {
-  color: #e65f78;
+  color: #6fe65f;
 }
 .red {
-  color: #e65f78;
+  color: #6fe65f;
 }
 .nav a:hover {
-  color: #e65f78;
+  color: #6fe65f;
 }
 .display {
   width: 100%;
@@ -100,7 +101,7 @@ section {
   font-weight: 400;
 }
 .download h2 span {
-  color: #e65f78;
+  color: #6fe65f;
 }
 .download p {
   font-weight: lighter;
@@ -122,9 +123,9 @@ section {
   outline: none;
 }
 .primary:hover {
-  border-color: #e65f78;
+  border-color:  #6fe65f;
   transform: scale(1.02);
-  color: #e65f78;
+  color: #6fe65f;
   font-weight: bolder;
 }
 .button-animtte {
@@ -183,7 +184,7 @@ section {
   margin: 0.2rem;
   width: 23rem;
   background-size: cover;
-  height: 25rem;
+  height: 28rem;
 }
 .about {
   width: 33rem;
@@ -204,7 +205,7 @@ section {
 }
 .about h2 span {
   font-weight: bold;
-  color: #e65f78;
+  color:  #6fe65f;
 }
 .about p {
   color: #6c757d;
@@ -224,7 +225,7 @@ section {
   cursor: pointer;
 }
 .about i:hover {
-  color: #e65f78;
+  color:  #6fe65f;
   transform: rotateZ(360deg);
 }
 
@@ -270,7 +271,7 @@ section {
   margin-top: 1.5rem;
 }
 .flex i {
-  color: #e65f78;
+  color:  #6fe65f;
   font-size: 3rem;
   margin-bottom: 0.5rem;
   font-weight: lighter;
@@ -279,7 +280,7 @@ section {
   font-size: 1.2rem;
 }
 .flex .line {
-  border: 1px solid #e65f78;
+  border: 1px solid #6fe65f;
   width: 3rem;
   padding: 0px;
   margin: auto;
@@ -303,22 +304,22 @@ section {
   letter-spacing: 0.1rem;
 }
 .secondary {
-  background-color: #e65f78;
-  border: 1px solid #e65f78;
+  background-color: #6fe65f;
+  border: 1px solid #6fe65f;
   text-transform: uppercase;
   padding: 1rem 2rem;
   color: white;
   font-size: 0.9rem;
   border-radius: 4px;
   transition: 500ms;
-  outline-color: #e65f78;
+  outline-color:  #6fe65f;
 }
 
 .secondary:hover {
   background-color: white;
-  border: 1px solid #e65f78;
+  border: 1px solid #6fe65f;
   text-transform: uppercase;
-  color: #e65f78;
+  color:  #6fe65f;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -335,7 +336,7 @@ section {
   text-align: center;
 }
 .client .fa-lightbulb {
-  color: #e65f78;
+  color: #6fe65f;
   font-size: 3rem;
 }
 .toni {
@@ -392,8 +393,8 @@ section {
   outline: none;
 }
 .offer button:hover {
-  background-color: #e65f78;
-  border: 1px solid #e65f78;
+  background-color: #6fe65f;
+  border: 1px solid  #6fe65f;
   color: white;
   cursor: pointer;
 }
@@ -429,7 +430,7 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: 3px solid #e65f78;
+  border: 3px solid #6fe65f;
   cursor: pointer;
 }
 .overlay:hover {
@@ -473,13 +474,13 @@ section {
   background-size: cover;
 }
 .blog .img1 {
-  background-image: url(../images/blog2.jpg);
+  background-image: url(../images/amz1.avif);
 }
 .blog .img2 {
-  background-image: url(../images/blog1.jpg);
+  background-image: url(../images/amz2.jpg);
 }
 .blog .img3 {
-  background-image: url(../images/blog2.jpg);
+  background-image: url(../images/amz3.jpg);
 }
 .main h1 {
   font-weight: normal;
@@ -490,7 +491,7 @@ section {
   font-weight: normal;
 }
 .main h2 span {
-  color: #e65f78;
+  color:  #6fe65f;
   font-weight: bold;
 }
 .main p {
@@ -505,7 +506,7 @@ section {
   font-weight: bolder;
 }
 .main a:hover {
-  color: #e65f78;
+  color:  #6fe65f;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -531,7 +532,7 @@ section {
   text-align: center;
 }
 .flex4 i {
-  color: #e65f78;
+  color:  #6fe65f;
   font-size: 3rem;
 }
 .flex4 h1 {
@@ -563,7 +564,7 @@ input {
   border-radius: 4px;
   color: hsl(204, 2%, 40%);
   font-size: 1rem;
-  outline-color: #e65f78;
+  outline-color:  #6fe65f;
 }
 .name input {
   width: 48.5%;
@@ -585,7 +586,7 @@ input {
   color: hsl(204, 2%, 40%);
   font-size: 17px;
   height: 7rem;
-  outline-color: #e65f78;
+  outline-color:  #6fe65f;
 }
 .textarea div {
   text-align: right;
@@ -616,8 +617,8 @@ input {
   background-color: #343434;
 }
 .footer i:hover {
-  background-color: #e65f78;
-  border: 2px solid #e65f78;
+  background-color:  #6fe65f;
+  border: 2px solid  #6fe65f;
   color: white;
   transform: rotateZ(720deg);
 }
@@ -638,21 +639,21 @@ input {
   padding-top: 1rem;
 }
 .footer button {
-  background-color: #e65f78;
-  border: 1px solid #e65f78;
+  background-color:  #6fe65f;
+  border: 1px solid  #6fe65f;
   text-transform: uppercase;
   padding: 0.8rem 1rem;
   color: white;
   font-size: 0.9rem;
   border-radius: 4px;
   transition: 500ms;
-  outline-color: #e65f78;
+  outline-color:  #6fe65f;
 }
 .footer button:hover {
   background-color: #242424;
-  border: 1px solid #e65f78;
+  border: 1px solid  #6fe65f;
   text-transform: uppercase;
-  color: #e65f78;
+  color:  #6fe65f;
   font-weight: bolder;
   cursor: pointer;
 }
